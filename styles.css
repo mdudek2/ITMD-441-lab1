@@ -1,6 +1,16 @@
+.main-body
+{
+  background-color: #bcd2e8;
+}
+
 .main-content {
   margin: auto;
   width: 50%;
+  height: 90%;
+  border: 2px solid white;
+  border-radius: 8px;
+  padding: 5px;
+  background-color: white;
 }
 
 h1, h2, h3 {
@@ -33,6 +43,5 @@ p, li {
   border-bottom-style: dashed;
   border-color: orange;
 }
-.
 
 
