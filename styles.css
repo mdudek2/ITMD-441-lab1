@@ -1,11 +1,10 @@
-.main-body
-{
+.main-body {
   background-color: #bcd2e8;
 }
 
 .main-content {
   margin: auto;
-  width: 65%;
+  width: 75%;
   height: 90%;
   border: 2px solid white;
   border-radius: 8px;
@@ -17,24 +16,38 @@
   display: flex;
   align-items: center;
   gap: 20px;
+  flex-wrap: nowrap;
 }
 
 .profile-text {
   flex-shrink: 1;
   flex-grow: 1;
-  max-width: 75%;
+  flex: 1;
+  min-width: 0;
   padding-right: 25%;
   margin: auto;
+  max-width: 500px;
+  height: auto;
+  background-color: green;
 }
 
+
 .profile-img {
-  max-width: 150px;
+  flex-shrink: 1;
+  flex-grow: 1;
+  max-width: 50%;
   height: auto;
   border-radius: 8px;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .selfie {
   max-width: 50%;
+  height: auto;
+  
 }
 
 h1, h2, h3 {
@@ -67,17 +80,30 @@ p, li {
 .header, .summary, .education, .skills, .experience, .projects {
   border-bottom-style: solid;
   border-color: orange;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 600px) {
+  
   .flex-container {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
   }
-
-  .profile-img img {
-    max-width: 100%;
-  }
+  
+  .profile-img {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     margin-bottom: 15px;
+   }
+   
+   .profile-img img {
+     max-width: 150px;
+     height: auto;
+   }
+   
+   .profile-text {
+     width:100%;
+     text-align: center;
+   }
 }
-
-
