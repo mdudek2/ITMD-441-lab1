@@ -7,7 +7,7 @@ h1, h2, h3 {
   font-family: 'Courier New', monospace;
   font-style: normal;
   font-variant: normal;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h1 {
@@ -28,5 +28,11 @@ p, li {
   font-style: normal; 
   font-variant: normal;
 }
+
+.header, .summary, .education, .skills, .experience, .projects {
+  border-bottom-style: dashed;
+  border-color: orange;
+}
+.
 
 
