@@ -5,12 +5,36 @@
 
 .main-content {
   margin: auto;
-  width: 50%;
+  width: 65%;
   height: 90%;
   border: 2px solid white;
   border-radius: 8px;
   padding: 5px;
   background-color: white;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-text {
+  flex-shrink: 1;
+  flex-grow: 1;
+  max-width: 75%;
+  padding-right: 25%;
+  margin: auto;
+}
+
+.profile-img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.selfie {
+  max-width: 50%;
 }
 
 h1, h2, h3 {
@@ -22,6 +46,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 48px;
+  text-align: center;
 }
 
 h2 {
@@ -40,8 +65,19 @@ p, li {
 }
 
 .header, .summary, .education, .skills, .experience, .projects {
-  border-bottom-style: dashed;
+  border-bottom-style: solid;
   border-color: orange;
+}
+
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-img img {
+    max-width: 100%;
+  }
 }
 
 
