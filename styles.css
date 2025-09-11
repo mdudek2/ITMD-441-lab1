@@ -58,21 +58,21 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 48px;
+  font-size: 64px;
   text-align: center;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 48px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 36px;
 }
 
 p, li {
   font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif; 
-  font-size: 16px; 
+  font-size: 20px; 
   font-style: normal; 
   font-variant: normal;
 }
@@ -105,5 +105,9 @@ p, li {
    .profile-text {
      width:100%;
      text-align: center;
+   }
+   
+   p, li {
+     font-size: 16px;
    }
 }
