@@ -1,5 +1,6 @@
 .main-body {
   background-color: #bcd2e8;
+  background-image: url('images/city-centre.jpg');
 }
 
 .main-content {
@@ -10,6 +11,7 @@
   border-radius: 8px;
   padding: 5px;
   background-color: white;
+  opacity: 0.95;
 }
 
 .flex-container {
@@ -24,7 +26,6 @@
   flex-grow: 1;
   flex: 1;
   min-width: 0;
-  padding-right: 25%;
   margin: auto;
   max-width: 500px;
   height: auto;
