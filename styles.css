@@ -76,6 +76,11 @@ p, li {
   font-size: 20px; 
   font-style: normal; 
   font-variant: normal;
+  line-height: 150%;
+}
+
+p {
+  
 }
 
 .header, .summary, .education, .skills, .experience, .projects {
