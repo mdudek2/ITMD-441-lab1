@@ -1,6 +1,5 @@
 .main-body {
-  background-color: #bcd2e8;
-  background-image: url('images/city-centre.jpg');
+  background: rgba(247, 40, 37, .8)
 }
 
 .main-content {
@@ -29,7 +28,6 @@
   margin: auto;
   max-width: 500px;
   height: auto;
-  background-color: green;
 }
 
 
@@ -39,7 +37,6 @@
   max-width: 50%;
   height: auto;
   border-radius: 8px;
-  background-color: blue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,6 +45,7 @@
 .selfie {
   max-width: 50%;
   height: auto;
+  border-radius: 50%;
 }
 
 .project-screenshots {
@@ -93,13 +91,17 @@ p, li {
 }
 
 p {
-  
+  margin-bottom: 50px;
+}
+
+img {
+  opacity: 1;
 }
 
 .header, .summary, .education, .skills, .experience, .projects {
   border-bottom-style: solid;
-  border-color: orange;
-  padding-bottom: 10px;
+  border-color: rgba(247, 40, 37, .8);
+  padding-bottom: 35px;
 }
 
 @media (max-width: 600px) {
