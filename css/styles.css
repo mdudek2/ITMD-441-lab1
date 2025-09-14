@@ -1,5 +1,5 @@
 .main-body {
-  background: rgba(247, 40, 37, .6)
+  background: rgba(19, 187, 73, .6);
 }
 
 .main-content {
@@ -101,8 +101,13 @@ img {
 
 .header, .summary, .education, .skills, .experience, .projects {
   border-bottom-style: solid;
-  border-color: rgba(247, 40, 37, .8);
+  border-color: rgba(19, 187, 73, .6);
   padding-bottom: 35px;
+}
+
+#copyright-notice {
+  margin-top: 50px;
+  margin-bottom: -10px;
 }
 
 @media (max-width: 600px) {
