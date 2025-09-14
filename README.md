@@ -1,1 +1,1 @@
-This is the repository for all ITMD-441 assignments
+This is the lab 1 repostiory for ITMD-441.
