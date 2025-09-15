@@ -20,7 +20,7 @@
   flex-wrap: nowrap;
 }
 
-.profile-text {
+.profile-text-container {
   flex-shrink: 1;
   flex-grow: 1;
   flex: 1;
@@ -30,6 +30,9 @@
   height: auto;
 }
 
+.profile-text {
+  font-weight: 600;
+}
 
 .profile-img {
   flex-shrink: 1;
@@ -83,12 +86,17 @@ h4 {
   font-size: 24px;
 }
 
-p, li {
+p, li, a {
   font-family: "Book Antiqua", Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif; 
   font-size: 20px; 
   font-style: normal; 
   font-variant: normal;
   line-height: 150%;
+}
+
+a {
+  color: rgba(19, 187, 73, .6);
+  font-weight: bold;
 }
 
 p {
